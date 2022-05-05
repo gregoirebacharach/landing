@@ -1,0 +1,39 @@
+/* Colour palette 
+0E0D0A
+5BD9D9
+8C2D87
+FF1494
+*/
+
+/* importing google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Titillium+Web:wght@200;600&display=swap');
+
+/* importing components files */
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/list-inline.css");
+@import url("components/paragraph.css");
+
+/* General style rules */
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	background-color: #0E0D0A;
+	margin : 0px 
+}
+
+h1, h2, h3 {
+	color:  white;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
+	margin: 15px 20px;
+}
+a {
+	text-decoration: none;
+}
+
